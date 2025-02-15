@@ -56,11 +56,11 @@
   services.openssh.settings.PermitRootLogin = "no";
 
   services.xserver.enable = true;
-  services.xserver.displayManager.autoLogin.enable = false;
+  services.displayManager.autoLogin.enable = false;
   services.xserver.xkb = {
-    layout = "uk";
+    layout = "gb";
     variant = "";
-  }
+  };
   console.keyMap = "uk";
 
   # Enable CUPS to print documents.
